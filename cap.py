@@ -11,11 +11,11 @@ driver.set_window_size(1300, 800)
 driver.get(url)
 url = ""
 time.sleep(10)
-driver.save_screenshot("test1.png")
+driver.save_screenshot(#test.png)
 print("hi")
 
 actions = []
-actions = driver.find_elements(By.CLASS_NAME, "sitemapPageName")
+actions = driver.find_elements(By.CLASS_NAME, #string classname )
 
 count = 0
 for e in actions:
